@@ -14,6 +14,7 @@ start_date = (datetime.datetime.today() - datetime.timedelta(31)).strftime('%Y-%
 
 #Authoize pygsheets
 gc = pygsheets.authorize(service_file=FOLDER_PATH_TO_GOOGLE_JSON_FILE)
+sheet_name = "GOOGLE_SHEET_NAME"
 
 #Function To Find Uniques In List
 def f7(seq):
@@ -90,7 +91,7 @@ for j in jdata['response']:
 df = pd.DataFrame(data=data,columns=f7(columns))
 
 #Upload to G-Sheet
-sheet = gc.open(G_SHEET_NAME)
+sheet = gc.open(sheet_name)
 worksheet = sheet[0]
 worksheet.clear()
 worksheet.set_dataframe(df,(1,1))
