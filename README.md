@@ -3,5 +3,7 @@ This repository contains a Python script that extracts a performance report (Las
 
 # Resources
 yahoo_oauth -> https://github.com/josuebrunel/yahoo-oauth
+
 pygsheets -> http://pygsheets.readthedocs.io/en/latest/
+
 pandas -> https://pandas.pydata.org/
