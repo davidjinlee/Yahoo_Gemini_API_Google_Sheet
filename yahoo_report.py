@@ -68,7 +68,7 @@ for j in jdata['response']:
 	jdata = json.loads(response.content.decode("utf-8"))
 	job_id = jdata['response']['jobId']
 
-	#Add Lag Time For Report To FUlly Generate
+	#Add Lag Time For Report To Fully Generate
 	time.sleep(30)
 
 	url = "https://api.admanager.yahoo.com/v1/rest/reports/custom/{}?advertiserId={}".format(job_id, advertiser_id)
