@@ -10,8 +10,10 @@ This repository contains a Python script that extracts a performance report (Las
 "GOOGLE_SHEET_NAME" must be replaced with the name of the Google sheet that you wish to publish the data to.
 
 # Resources
-Yahoo 
--------
+Yahoo Developer Network -> https://developer.yahoo.com/gemini/
+
+Google API Console -> https://console.cloud.google.com/apis/
+
 yahoo_oauth -> https://github.com/josuebrunel/yahoo-oauth
 
 pygsheets -> http://pygsheets.readthedocs.io/en/latest/
