@@ -1,5 +1,5 @@
 # Yahoo Gemini API (Upload into Google Sheet)
-This repository contains a Python script that extracts a performance report (Last 31 Days) from Yahoo Gemini and uploads the data into Google Sheets through the utilization of "pygsheets".
+This repository contains a Python script that extracts a performance report (Last 31 Days) from Yahoo Gemini API and uploads the data into Google Sheets through the utilization of "pygsheets".
 
 
 # Overview
